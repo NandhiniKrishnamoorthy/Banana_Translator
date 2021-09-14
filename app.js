@@ -1,1 +1,1 @@
-console.log("Script from another src file")
+alert("Script is running")
