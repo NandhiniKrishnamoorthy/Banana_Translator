@@ -1,3 +1,3 @@
-var buttontranslate = document.querySelector("#btntranslate");
+var buttontrans = document.querySelector("#btntranslate");
 
-console.log(buttontranslate);
+console.log(buttontrans);
