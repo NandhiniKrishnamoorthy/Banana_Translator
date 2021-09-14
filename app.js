@@ -1,3 +1,5 @@
 var buttontrans = document.querySelector("#btntranslate");
 
-console.log(buttontrans);
+buttontrans.addEventListener("click", function clickEvent() {
+    console.log("Clicked!");
+})
