@@ -1,3 +1,3 @@
 var buttontranslate = document.querySelector("#btntranslate")
 
-console.log(buttontranslate);
+console.log("Button Clicked!")
