@@ -2,16 +2,16 @@ root {
     --primary-color: #F59E0B;
 }
 
-.container{
-    text-align:center;
-}
-
 .navigation {
     background-color: var(--primary-color);
-    margin: auto;
+    margin: 1rem;
     padding: 1rem;
     max-width: 700px;
     text-align: center;
+}
+
+.container{
+    text-align:center;
 }
 
 #txtarea {
