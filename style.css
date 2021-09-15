@@ -1,16 +1,17 @@
 root {
-    --primary-color: #FCD34D;
+    --primary-color: #F59E0B;
 }
 
 .container{
     text-align:center;
 }
 
-.navigation{
+.navigation {
+    background-color: var(--primary-color);
     margin: auto;
     padding: 1rem;
     max-width: 700px;
-    background-color: var(--primary-color);
+    text-align: center;
 }
 
 #txtarea {
