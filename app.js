@@ -16,6 +16,6 @@ buttontrans.addEventListener("click", function clickEvent() {
     fetch(findurl(text))
         .then(response => response.json())
         .then(json => {
-            outputtextarea.innerText = json;
+            outputtextarea.innerText = json.contents.translated;
         })
 })
