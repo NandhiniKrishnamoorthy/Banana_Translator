@@ -1,13 +1,9 @@
 root {
-    --primary-color: white;
+    --primary-color: #FCD34D;
 }
 
 .container{
     text-align:center;
-}
-
-body{
-    background-color: black;
 }
 
 .navigation{
