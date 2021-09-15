@@ -9,7 +9,9 @@ function findurl(inputtext) {
     return url;
 }
 
-
+function errorHandling(error) {
+    console.log("Some ERROR Occured!")
+}
 
 buttontrans.addEventListener("click", function clickEvent() {    
     text = txtinputarea.value;
@@ -18,4 +20,5 @@ buttontrans.addEventListener("click", function clickEvent() {
         .then(json => {
             outputtextarea.innerText = json.contents.translated;
         })
+        .catch(errorHandling)
 })
