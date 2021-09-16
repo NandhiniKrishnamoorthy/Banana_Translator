@@ -1,10 +1,10 @@
-root {
+:root {
     --primary-color: #F59E0B;
 }
 
 .navigation {
     background-color: var(--primary-color);
-    margin: 1rem;
+    margin: auto;
     padding: 1rem;
     max-width: 700px;
     text-align: center;
@@ -30,7 +30,7 @@ root {
 
 .footer-style{
     background-color: var(--primary-color);
-    margin: 1rem;
+    margin: auto;
     padding: 1rem;
     text-align: center;
     max-width: 700px;
