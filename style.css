@@ -32,12 +32,12 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
-    width: 50%;
+    width: 40%;
     min-height: 10vh;
 }
 
 #btntranslate{
-    width:50px;
+    width:100px;
     height:50px;
     box-shadow: 1px;
 }
