@@ -34,6 +34,7 @@ body {
     width: 40%;
     min-height: 15vh;
     overflow: scroll;
+    font-size: large;
 }
 .outputword {
     margin-top:1rem;
@@ -53,6 +54,7 @@ body {
     width: 40%;
     min-height: 15vh;
     overflow: scroll;
+    font-size: large;
 }
 
 #btntranslate{
