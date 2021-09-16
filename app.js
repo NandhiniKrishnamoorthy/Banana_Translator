@@ -1,6 +1,7 @@
 var buttontrans = document.querySelector("#btntranslate");
 var txtinputarea = document.querySelector("#txtarea");
 var outputtextarea = document.querySelector("#outputtext");
+var errortext = document.querySelector(".displayerror");
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
@@ -10,7 +11,8 @@ function findurl(inputtext) {
 }
 
 function errorHandling(error) {
-    console.log("Some ERROR Occured!")
+    //console.log("Some ERROR Occured!")
+    errortext.innerText = "You can use this for only 5 times per hour, please try after 1 hour";
 }
 
 buttontrans.addEventListener("click", function clickEvent() {    

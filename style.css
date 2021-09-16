@@ -27,12 +27,14 @@ body {
 .diplayerror {
     padding: 0.5rem;
     font-family: 'Caveat', cursive;
+    font-size:medium;
+    font-weight:bold;
 }
 
 #txtarea {
     display: block;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
