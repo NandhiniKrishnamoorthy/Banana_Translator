@@ -2,6 +2,10 @@
     --primary-color: #F2C94C;
 }
 
+body{
+    background-image:url("/images/banana_app.jpg");
+}
+
 .navigation {
     background-color: var(--primary-color);
     margin: auto;
