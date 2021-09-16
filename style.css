@@ -26,22 +26,23 @@ body {
 
 #txtarea {
     display: block;
-    margin-top:1.5rem;
-    margin-bottom:1.5rem;
-    margin-left:auto;
-    margin-right:auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
     width: 40%;
     min-height: 15vh;
     overflow: scroll;
     font-size: large;
+    font-family: 'Caveat', cursive;
 }
 .outputword {
-    margin-top:1rem;
+    margin-top: 1rem;
     margin: auto;
-    text-align:center;
-    color:white;
-    padding:0.2rem;
+    text-align: center;
+    color: white;
+    padding: 0.2rem;    
 }
 
 #outputtext {
@@ -55,13 +56,15 @@ body {
     min-height: 15vh;
     overflow: scroll;
     font-size: large;
+    font-family: 'Caveat', cursive;
 }
 
-#btntranslate{
-    width:100px;
-    height:50px;
+#btntranslate {
+    width: 100px;
+    height: 50px;
     box-shadow: 1px;
     background-color: var(--primary-color);
+    font-family: 'Caveat', cursive;
 }
 
 .footer-style {
