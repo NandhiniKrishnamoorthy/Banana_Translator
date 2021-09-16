@@ -16,7 +16,10 @@
 
 #txtarea {
     display: block;
-    margin: auto;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    margin-left:auto;
+    margin-right:auto;
     padding: 1rem;
     width: 40%;
     min-height: 10vh;
@@ -24,7 +27,10 @@
 
 #outputtext {
     display: block;
-    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
     width: 50%;
     min-height: 10vh;
