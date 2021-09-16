@@ -36,9 +36,10 @@ body {
     overflow: scroll;
 }
 .outputword {
-    margin-left:3rem;
-    text-align:left;
+    margin: auto;
+    text-align:center;
     color:white;
+    padding:0.2rem;
 }
 
 #outputtext {
