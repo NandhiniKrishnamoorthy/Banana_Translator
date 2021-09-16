@@ -36,8 +36,8 @@ body {
     overflow: scroll;
 }
 .outputword {
-    margin-left:1rem;
-    text-align:center;
+    margin-left:3rem;
+    text-align:left;
     color:white;
 }
 
