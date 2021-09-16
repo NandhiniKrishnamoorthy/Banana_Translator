@@ -13,6 +13,7 @@ function findurl(inputtext) {
 function errorHandling(error) {
     //console.log("Some ERROR Occured!")
     errortext.innerText = "You can use this for only 5 times per hour, please try after 1 hour";
+    outputtextarea.innerText = "";
 }
 
 buttontrans.addEventListener("click", function clickEvent() {    
