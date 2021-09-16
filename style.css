@@ -33,8 +33,12 @@ body {
     width: 40%;
     min-height: 20vh;
 }
-.outputtext{
-    text-align:right;
+.outputtext {
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #outputtext {
