@@ -7,7 +7,7 @@
 body {
     background-image: url("/images/banana_app.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     font-family: 'Caveat', cursive;
 }
 
