@@ -7,15 +7,19 @@
 body {
     background-image: url("/images/banana_app.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     font-family: 'Caveat', cursive;
+}
+
+nav{
+    margin-top: 0px;
 }
 
 .navigation {
     background-color: var(--primary-color);
     display: block;
     margin: auto;
-    padding: 0.75rem;
+    padding: 0.5rem;
     max-width: 700px;
     text-align: center;
     font-size: x-large;
@@ -23,7 +27,7 @@ body {
 
 .container{
     text-align:center;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -86,7 +90,11 @@ body {
     padding: 0.75rem;
     text-align: center;
     max-width: 700px;
-    font-size:large;
+    font-size:large;    
     margin: auto;
     bottom: 0;
+}
+
+footer {
+    margin-bottom: 0px;
 }
